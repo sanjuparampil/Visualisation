@@ -15,7 +15,7 @@ df_bank_nifty = pd.read_csv("Nifty_bank.csv")
 
 def theft_bargraphs():
     """ This function reads data from 2018.csv and
-    2019.csv and plots number of stolen items(y-axis)
+    2019.csv and plots number of items(y-axis)
     vs type of property(x-axis).Visualization method used is BAR GRAPH"""
     
     plt.figure()
